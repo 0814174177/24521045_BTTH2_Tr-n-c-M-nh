@@ -23,7 +23,7 @@ class sTime{
                 local=-1;
                 return;
             }
-			if(hour<0 || hour>23){
+			if(hour<0){
                 cout<<"Wrong form_Hour"<<flush;
                 local=-1;
                 return;
